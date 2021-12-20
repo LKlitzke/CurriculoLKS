@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head style="margin-top:10px;">
+        <title>Currículo - Dev Web 1</title>
+
+        <!-- Import básico -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Import de CSS, Favicon e fontes da Google -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="favicon-16x16.png"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header id="header1" style="margin-top: 200px;">
+            <img id="cavalo" title="NÃO CLIQUE AQUI" alt="imagem" src="origem2.jpeg">
+            <audio id="audio" src="cavalo.wav"></audio> <!-- Segredo hehehe -->
+
+            <h1>Lucas Eduardo Klitzke da Silva</h1>
+            <q>Don't limit your challenges, challenge your limits.</q>
+            <nav style="padding-bottom: 10px;">
+                <a id="nav1" href="#section1">Informações básicas</a>
+                <a id="nav2" href="#section2">Educação</a>
+                <a id="nav3" href="#section3">Idiomas</a>
+                <a id="nav4" href="#section4">Qualificações pessoais</a>
+                <a id="nav5" href="#section5">Experiências</a>
+            </nav>
+        </header>
+        
+        <!-- Informações sobre mim, organizadas em sections -->
+        <div id="corpoTexto" >
+            <section id="section1">
+                <h3>INFORMAÇÕES BÁSICAS</h3>
+                <h4><b>E-mail: </b><button id="botao" type="button">Clique para revelar</button></h4>
+                <h4><b>Estado Civil: </b>Solteiro</h4>
+                <h4><b>Endereço: </b>Domingos Martins - ES</h4>
+                <h4><b>Nascimento: </b>17/03/1999 (22 anos)</h4>
+                <h4><b>Telefone: </b>(27) 99839-2509</h4>
+                <h4><b style="text-align:justify; line-height: 5px;">Objetivo profissional:</b>
+                    Busco expandir e aprofundar os conhecimentos na área de TI com preferência em
+                    desenvolvimento Full Stack e manipulação em base de dados, a fim de aprimorar as habilidades
+                    profissionais, interpessoais e de senso crítico, sendo essas competências fundamentais para
+                    impulsionar o sucesso da equipe e projeto em que estiver inserido.</h4>
+            </section>
+            
+            <section id="section2">
+                <hr>
+                <h3>EDUCAÇÃO</h3>
+                <ul>
+                    <li> Ensino médio completo na EEEFM "Teófilo Paulino em 2016;</li>
+                    <li> Cursando Engenharia da Computação (FAESA) no 10º período noturno.</li>
+                </ul>
+            </section>
+            
+            <section id="section3">
+                <hr>
+                <h3>IDIOMAS</h3>
+                <ul>
+                    <li> Fluente em inglês com certificado <em>Michigan English Test</em> (MET);</li>
+                    <li> Conhecimento básico em alemão, espanhol e francês.</li>
+                </ul>
+            </section>
+            
+            <section  id="section4">
+                <hr>
+                <h3>QUALIFICAÇÕES PESSOAIS</h3>
+                <ul>
+                    <li> Certificado Microlins de informática básica e Office (2012);</li>
+                    <li> Certificado de conhecimentos essenciais em Excel, Agile Scrum e White Belt (Lean Six Sigma);</li>
+                    <li> Coeficiente de Rendimento (CR) atual 9.42 em Engenharia da Computação;</li>
+                    <li> Conhecimento intermediário em C, C++, C#, HTML e Python;</li>
+                    <li> Conhecimento básico em Java, PHP e Javascript, MySQL e SQL Server;</li>
+                    <li> Conhecimento básico em CSS, Bootstrap, Angular, NodeJS, VueJS, JQuery e arquitetura .NET Core MVC;</li>
+                    <li> Menção honrosa na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP) em 2014 e 2016;</li>
+                    <li> Premiação FAESA "Mérito Acadêmico" nos semestres de 2018/2 e 2019/1.</li>
+                </ul>
+            </section>
+
+            <section id="section5">
+                <hr>
+                <h3>EXPERIÊNCIAS PROFISSIONAIS</h3>
+                <ul style="padding-bottom: 20px;">
+                    <li> Professor voluntário de Programação em C para estudantes do 3º ano do Ensino Médio - jun/19 a out/19;</li>
+                    <li> Estagiário em Desenvolvimento Full stack na Mindworks Informática LTDA - nov/20 até o momento.</li>
+                </ul>
+            </section>
+        </div>
+    </body>
+
+    <footer>
+        <div>
+            <a id="testeee" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/lucas-klitzke/"><i class="fa fa-linkedin fa-3x"></i></a>
+            &nbsp;
+            <a title="GitHub" target="_blank" href="https://github.com/LEKlitzke"><i class="fa fa-github fa-3x"></i></a>
+            &nbsp;
+            <a title="Instagram" target="_blank" href="https://www.instagram.com/lucasklitzk3/"><i class="fa fa-instagram fa-3x"></i></a>
+            <button id="scroll"><i class="fa fa-arrow-up"></i>&nbsp; Scroll up &nbsp;<i class="fa fa-arrow-up"></i></button>
+        </div>
+    </footer>
+</html>
+
+<script>
+    document.getElementById("botao").onclick = function(){
+        document.getElementById("botao").innerHTML = "lucas_eduardoksilva@hotmail.com";
+    }
+    
+    document.getElementById("scroll").onclick = function(){
+        window.scrollTo({top: 0, behavior: 'smooth' });
+    }
+
+    document.getElementById("cavalo").onclick = function(){
+        document.getElementById("cavalo").src = "https://c.tenor.com/ZSrJrkIg5gcAAAAC/horse-cavalo.gif";
+        document.getElementById("audio").play();
+    }
+
+    document.getElementById("nav1").click = function(){
+        $('html,body').animate({
+            scrollTop: $("section1").offset().top},
+            'slow');
+    }
+</script>

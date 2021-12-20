@@ -1,0 +1,128 @@
+/* CSS para o Curriculo, algumas seleções são redundantes */
+
+html {
+    background-image: linear-gradient(to bottom, transparent 0%, rgb(0, 0, 0) 80%), url('https://img.locationscout.net/images/2020-05/best-view-of-neuschwanstein-castle-i-germany_l.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+html body {
+  
+  font-family: 'Encode Sans', sans-serif;
+  color: white;
+  margin-top: 200px;
+  margin: 0;
+}
+
+header h1 {
+    font-family: 'Roboto';
+    text-align: center;
+    color:rgb(235, 231, 231);
+    text-shadow: 2px 2px 5px rgb(86, 150, 209);
+    margin-bottom: 10px;
+}
+
+header q {
+  font-style: italic;
+  text-align: center;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#cavalo {
+  border: 2px solid rgb(29, 28, 28);
+  height: 250px;
+  width: 250px;
+  border-radius: 5%;
+  text-align: center;
+  display: block;
+  border-color: rgb(29, 28, 28);
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  overflow: hidden;
+  text-align: center;
+}
+
+nav a {
+    font-family: 'Encode Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(85, 95, 104);
+    border-radius: 5%;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+nav :not(:hover) {
+  transition: 0.1s;
+}
+
+#corpoTexto {
+  background-image: linear-gradient(to bottom, rgb(102, 102, 102), rgb(27, 27, 27));
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(21, 169, 255, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 5%;
+  width:50%;
+  margin-left: auto; 
+  margin-right: auto;
+
+}
+
+section ul {
+  text-align: left;
+  list-style-position: inside;
+}
+
+#section1, #section2, #section3, #section4, #section5 {
+  padding-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+li {
+    line-height: 200%;
+}
+
+footer #scroll {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(26, 22, 19);
+    color: whitesmoke;
+}
+
+footer div {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
